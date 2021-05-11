@@ -1,0 +1,16 @@
+{
+  "name": "cypress-intercept-times-flake",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "7.3.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "start": "http-server",
+    "cy:open": "cypress open"
+  }
+}
